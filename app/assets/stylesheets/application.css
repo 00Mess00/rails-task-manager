@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ .btn {
+  background: rgb(150, 150, 150);
+
+
+ }

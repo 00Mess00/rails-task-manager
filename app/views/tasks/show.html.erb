@@ -1,0 +1,8 @@
+<h1>My task</h1>
+<ul>
+    <li><%= @task.id %></li>
+    <li><%= @task.title %></li>
+    <li><%= @task.completed %></li>
+</ul>
+<%=link_to("back to the list", tasks_path)%>
+<%=link_to("Edit a task", task_edit_path(@task), class:'btn')%>
